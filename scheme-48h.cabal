@@ -17,7 +17,7 @@ executable scheme-48h
   default-extensions:  ExistentialQuantification
   other-modules:       Parser, Evaluate
   -- other-extensions:
-  build-depends:       base >=4.11 && <4.12
+  build-depends:       base >=4.14 && <4.15
     , parsec >=3.1.14 && <3.2
     , mtl >= 2.2.2 && <2.3
   hs-source-dirs:      src
